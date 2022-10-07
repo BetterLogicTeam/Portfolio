@@ -1,0 +1,22 @@
+.Fea_main{
+    background-image: url(../Assets/fea.png);
+    background-color: #fff;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.h3se{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .textjs{
+        text-align:justify;
+    }
+}

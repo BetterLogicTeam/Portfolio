@@ -1,0 +1,20 @@
+.ex_mbg{
+    padding: 30px 0px ;
+    /* background-color: rgb(78, 31, 31); */
+    margin-bottom: 30px;
+}
+.Ex_h{
+    
+    color: #0a1e57;
+    font-size: 5em;
+    font-weight: 700;
+    text-shadow: #fff 0 0 1px, #eee 0 2px 3px, #ddd 0 9px 3px, #ccc 0 12px 1px;
+    transition: all 1s ease;
+}
+
+@media only screen and (max-width:600px){
+
+.Ex_h{
+    font-size: 4em;
+}
+}

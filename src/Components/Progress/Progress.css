@@ -1,0 +1,84 @@
+.section{
+    position: relative;
+    padding: 40px 0px;
+   
+}
+.boooxbg{
+  
+    background: #220e38;      
+} 
+
+
+.conntt{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conntt .caard{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    z-index: 10;
+    margin: 20px 20px 60px;
+    transition: 0.5S;
+}
+
+.boox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#350048  ;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5) ;
+    border: 1px solid rgba(0,0,0,0.1);
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.percent{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    z-index: 100;
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.number h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.number span{
+    font-size: 24px;
+}
+.hgfjs{
+    color:white;
+    z-index: 100;
+}
+.svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #00476c;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}

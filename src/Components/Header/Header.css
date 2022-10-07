@@ -1,0 +1,10 @@
+.NAv_bg{
+    background-color: black;
+}
+
+.nav_li{
+    color: white !important;
+    font-weight: 600 !important;
+    /* font-family: 'Courier New', Courier, monospace; */
+
+}

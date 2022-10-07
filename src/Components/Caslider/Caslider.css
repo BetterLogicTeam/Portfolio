@@ -1,0 +1,525 @@
+
+  :root{
+    --num:85;
+    --clr:#04fc43;
+    --num1:80;
+    --clr1:#06ccff;
+    --clr2:#ff00be;
+    --num2:90;
+    --clr3:#fee300;
+    --num3:82;
+
+}
+.bor4:hover{
+  border: 2px solid var(--clr3);
+}
+.bor5:hover{
+  border: 2px solid var(--clr3);
+}
+.bor1:hover{
+  border: 2px solid var(--clr3);
+}
+
+.bor2:hover{
+  border: 2px solid var(--clr2);
+}
+.bor3:hover{
+  border: 2px solid var(--clr1);
+}
+.Cslider_main_bg{
+  padding: 30px 0px;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+
+  /* cards css */
+  
+
+
+
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+
+
+
+.caaardsbg{
+background-color: #222;
+padding: 30px 20px;
+}
+
+.cooont{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .bor:hover{
+    border:3px solid var(--clr) !important;
+}
+
+/* .cassa{
+    background-color: #242424 !important;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.144),5px 5px 15px rgba(0, 0, 0, 0.7) ;
+} */
+
+
+.caaaard{
+    position: relative;
+    width: 242px;
+    height: 250px;
+    border-radius: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424 !important;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.144),5px 5px 15px rgba(0, 0, 0, 0.7) ;
+}
+
+.blasjl{
+    background: #2a2a2a  !important;
+    padding: 20px 0px;
+}
+
+
+
+.perrrcen{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+  
+}
+
+.perrrcen svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+
+.dot{
+    position: absolute;
+    /* background: #f00; */
+    inset: 5px;
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+    transform: rotate(calc(3.6deg * var(--num)));
+}
+
+
+
+
+
+
+@keyframes animateDot 
+{
+	0% 
+	{
+		transform: rotate(0deg);
+	}
+	100% 
+	{
+		transform: rotate(calc(3.6deg * var(--num)));
+	}
+}
+
+
+
+.nu8{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 2.5s;
+    opacity: 0;
+}
+
+
+.nu8 h4{
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-left: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.nu8 span {
+    font-weight: 300;
+    font-size:0.5em;
+    color: #fff;
+}
+.dot::before{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+	0 0 30px var(--clr);
+
+
+}
+
+
+
+.nu8 p{
+    font-weight: 300;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.75);
+    
+}
+
+.perrrcen svg circle{
+    width: 100%;
+    height:100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+    
+}
+.perrrcen svg circle:nth-child(2){ 
+    /* stroke: #04fc43; */
+    stroke: var(--clr);
+    stroke-dasharray:440 ;
+   stroke-dashoffset: calc(440 - (440 *var(--num))/100) ;
+   animation: fadeIn 1s linear forwards;
+   animation-delay: 2.5s;
+   opacity: 0;
+}
+
+
+@keyframes fadeIn 
+{
+	0% 
+	{
+		opacity: 0;
+	}
+	100% 
+	{
+		opacity: 1;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* second element  */
+.perrrce{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+  
+}
+.perrrce svg circle{
+    width: 100%;
+    height:100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+    
+}
+
+.perrrce svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+.za{
+    position: absolute;
+    /* background: #f00; */
+    inset: 5px;
+    z-index: 10;
+    animation: animateDo 2s linear forwards;
+    transform: rotate(calc(3.6deg * var(--num1)));
+}
+
+.za::before{
+
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: var(--clr1);
+    box-shadow: 0 0 10px var(--clr1),
+	0 0 30px var(--clr1);
+}
+
+.perrrce svg circle:nth-child(2){ 
+    /* stroke: #04fc43; */
+    stroke: var(--clr1);
+    stroke-dasharray:440 ;
+   stroke-dashoffset: calc(440 - (440 *var(--num1))/100) ;
+   animation: fadeIn 1s linear forwards;
+   animation-delay: 2.5s;
+   opacity: 0;
+}
+
+@keyframes animateDo 
+{
+	0% 
+	{
+		transform: rotate(0deg);
+	}
+	100% 
+	{
+		transform: rotate(calc(3.6deg * var(--num1)));
+	}
+}
+
+
+
+
+
+
+
+
+
+/* third elemet elememt  */
+.perrrc{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+  
+}
+.perrrc svg circle{
+    width: 100%;
+    height:100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+    
+}
+
+.perrrc svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+.zaa{
+    position: absolute;
+    /* background: #f00; */
+    inset: 5px;
+    z-index: 10;
+    animation: animateD 2.5s linear forwards;
+    transform: rotate(calc(3.6deg * var(--num2)));
+}
+
+.zaa::before{
+
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: var(--clr2);
+    box-shadow: 0 0 10px var(--clr2),
+	0 0 30px var(--clr2);
+}
+
+.perrrc svg circle:nth-child(2){ 
+    /* stroke: #04fc43; */
+    stroke: var(--clr2);
+    stroke-dasharray:440 ;
+   stroke-dashoffset: calc(440 - (440 *var(--num2))/100) ;
+   animation: fadeIn 1s linear forwards;
+   animation-delay: 2.5s;
+   opacity: 0;
+}
+@keyframes animateD 
+{
+	0% 
+	{
+		transform: rotate(0deg);
+	}
+	100% 
+	{
+		transform: rotate(calc(3.6deg * var(--num2)));
+	}
+}
+
+
+
+
+
+
+
+/* frouth element  */
+
+.perrr{
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+  
+}
+.perrr svg circle{
+    width: 100%;
+    height:100%;
+    fill: transparent;
+    stroke-width: 2;
+    stroke: #191919;
+    transform: translate(5px,5px);
+    
+}
+
+.perrr svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+.zaaa{
+    position: absolute;
+    /* background: #f00; */
+    inset: 5px;
+    z-index: 10;
+    animation: animate 2.5s linear forwards;
+    transform: rotate(calc(3.6deg * var(--num3)));
+}
+
+.zaaa::before{
+
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: var(--clr3);
+    box-shadow: 0 0 10px var(--clr3),
+	0 0 30px var(--clr3);
+}
+
+.perrr svg circle:nth-child(2){ 
+    /* stroke: #04fc43; */
+    stroke: var(--clr3);
+    stroke-dasharray:440 ;
+   stroke-dashoffset: calc(440 - (440 *var(--num3))/100) ;
+   animation: fadeIn 2s linear forwards;
+   animation-delay: 2.5s;
+   opacity: 0;
+}
+@keyframes animate 
+{
+	0% 
+	{
+		transform: rotate(0deg);
+	}
+	100% 
+	{
+		transform: rotate(calc(3.6deg * var(--num3)));
+	}
+}
+
+
+
+
+@media only screen and (max-width:600px){
+
+    .cooont{
+        flex-direction: column !important;
+    }
+
+
+
+    .caaaard{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+    
+.caaaard{
+    width: 295px !important;
+}
+
+.sliiider .swiper-slide {
+height: 220px !important;
+}
+}

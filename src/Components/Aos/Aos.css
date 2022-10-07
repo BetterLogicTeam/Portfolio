@@ -1,0 +1,134 @@
+.aos_main{
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+
+.res_sm{
+    color: #0a1e57 !important;
+}
+
+
+@media only screen and (max-width:600px){
+    .res_sm{
+        font-size:4rem !important;
+        color: #0a1e57;
+        /* font-size: 5em; */
+        font-weight: 700;
+        text-shadow: #fff 0 0 1px, #eee 0 2px 3px, #ddd 0 9px 3px, #ccc 0 12px 1px;
+    }
+ 
+}
+
+.mySwiper img{
+    width: 400px !important;
+    /* margin-top: 40px; */
+}
+
+
+
+
+.code_pen{
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.code_pen .card{
+    position: relative;
+    cursor: pointer;
+    border: none;
+}
+
+.code_pen .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.code_pen .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.code_pen .card:hover .face.face1{
+    background: rgb(2,36,71);
+    transform: translateY(0);
+}
+
+.code_pen .card .face.face1 .content{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.code_pen .card:hover .face.face1 .content{
+    opacity: 1;
+}
+
+.code_pen .card .face.face1 .content img{
+    max-width: 300px;
+    background-size: cover;
+    max-height: 500px;
+}
+
+/* .code_pen .card .face.face1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+} */
+
+.code_pen .card .face.face2{
+    position: relative;
+    background: rgb(2,36,71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+    height: 50%;
+}
+
+.code_pen .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.code_pen .card .face.face2 .content p{
+    margin: 0;
+    padding: 0;
+}
+
+/* .code_pen .card .face.face2 .content a{
+    margin: 15px 0 0;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.code_pen .card .face.face2 .content a:hover{
+    background: #333;
+    color: #fff;
+} */
+
+.face1 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .code_pen{
+        width: 300px;
+    }
+}
