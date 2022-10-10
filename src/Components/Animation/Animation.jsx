@@ -12,9 +12,8 @@ function Animation() {
         <section id="about" class="light">
         <div data-aos="fade-right"
             data-aos-duration="3000"> <header >
-           <div className='Ex_h'> <p>AboutUs</p> </div>
-            <p class="title">A software engineer Skilled at writing well-designed, testable and efficient code using current best practices in
-Dapp development in solidity.</p>
+           <div className='Ex_h'> <p>About Us</p> </div>
+            <p class="title">A software engineer Skilled at writing well-designed, testable and efficient code using Smart Contract - Solidity | Web3.JS | NFT | Open Marketplace | Metaverse | DEFI | DEX | DAO | Truffle | Hardhat</p>
         </header>
         </div>
 
@@ -46,8 +45,8 @@ Dapp development in solidity.</p>
                         <div class="about-content left animated fadeInLeft visible" >
                             <div class="about-icon"><i class="fa fa-cube"></i></div>
                             <div class="about-detail">
-                                <h4>Multipurpose Design</h4>
-                                <p>Remember though, well designed websites aren’t an accident. Planning makes perfect and a skill like umar goes a long way towards sharpening the entire process.</p>
+                                <h4>Security</h4>
+                                <p>Blockchain technology's data structures have inherent security qualities because they are based on consensus, cryptography, and decentralization principles. Each new block of information connects to all the previous blocks in a way that it's nearly impossible to tamper with.</p>
                             </div>
                         </div>
                     </div>

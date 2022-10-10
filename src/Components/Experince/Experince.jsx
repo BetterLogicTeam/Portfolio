@@ -6,7 +6,7 @@ function Experince() {
     <div className='ex_mbg experience_main success' id="about" >
         <h1 className='Ex_h' data-aos="fade-right"
             data-aos-duration="4000"
-        >Experince</h1>
+        >Expertise</h1>
       
     </div>
   )

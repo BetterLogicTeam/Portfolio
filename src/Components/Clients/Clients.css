@@ -61,15 +61,15 @@
 
 
 @media only screen and (max-width:600px){
-.img_ss{
+/* .img_ss{
   width: 310px !important;
-}
+} */
 
-.client_swipar img{
+/* .client_swipar img{
   width: 275px !important;
-}
+} */
 }
 
-.client_swipar img{
+/* .client_swipar img{
   width: 475px !important;
-}
+} */

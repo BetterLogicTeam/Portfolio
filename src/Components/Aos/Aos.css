@@ -28,7 +28,7 @@
 
 
 .code_pen{
-    width: 1000px;
+    width: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -129,6 +129,6 @@
 
 @media screen and (max-width: 700px) {
     .code_pen{
-        width: 300px;
+        width: auto;
     }
 }

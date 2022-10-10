@@ -9,7 +9,7 @@ function About() {
         <div className="container">
             <div className="row justify-content-center align-content-center">
                 <div className="col-lg-6 mt-5">
-                   <p className='text-dark text-justify'> <span> Hello <h3> I,am Umar Farooq.</h3> I am a blockchain developer. I make all kind of blockchain sities .  </span></p>
+                   <p className='text-dark text-justify'> <span> Hello <h3> I,am Umar Farooq.</h3> I am a Fullstack Blockchain Developer. I make all kind of  sites .  </span></p>
                <p>I have 5+ years of experience in this field of Blockchain, web development and NodeJS. I work in the latest website technologies because of their advantages like the scalability of React and elegant design. My area of expertise are,</p>
                 </div>
                 <div className="col-lg-6 ">
