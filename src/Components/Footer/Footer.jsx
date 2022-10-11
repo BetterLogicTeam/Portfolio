@@ -94,8 +94,8 @@ function Footer() {
                 </a> */}
               </div>
             </div>
-            <div className="col-md-2"></div>
-            <div className="col-md-6">
+            <div className="col-md-4"></div>
+            <div className="col-md-4">
               <h6 className="text-white use"></h6>
               <ul className="footer_list">
               

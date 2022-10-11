@@ -26,7 +26,7 @@ function Home_h() {
     <div className="type_writer fs-5 mt-1">
     <Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('I am a Full Stack Blockchain Developer. I make all kind of sites.')
+    typewriter.typeString('I am a Full Stack Blockchain Developer. I make all kind of sites according to your requirements.')
       .callFunction(() => {
         console.log('String typed out!');
       })
