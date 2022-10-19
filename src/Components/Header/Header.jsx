@@ -16,7 +16,7 @@ function Header() {
         <Navbar.Brand href="#home">
         <Typewriter
   onInit={(typewriter) => {
-    typewriter.typeString('HELLO! I,am Umar Farooq.')
+    typewriter.typeString('HELLO! I am Umar Farooq.')
       .callFunction(() => {
         console.log('String typed out!');
       })

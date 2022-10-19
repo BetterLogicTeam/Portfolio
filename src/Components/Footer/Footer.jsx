@@ -112,7 +112,7 @@ function Footer() {
 
                   <div className="d-flex umr">
               <ImLocation2 className="me-3"></ImLocation2>
-                  <li className="llii">Model Town Lahore, Lahore</li>
+                  <li className="llii text-white">Model Town Lahore, Lahore</li>
                   </div>
           
             
