@@ -25,7 +25,7 @@ function Caslider() {
           clickable: true,
         }}
         autoplay={{
-            delay: 3500,
+            delay: 1000,
             // autoplayDisableOnInteraction:true,
             pauseOnMouseEnter: true,
           }}
